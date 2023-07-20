@@ -1,0 +1,20 @@
+name: sticklebacks
+channels:
+  - conda-forge
+dependencies:
+  - scipy
+  - imageio
+  - pandas
+  - matplotlib
+  - seaborn
+  - statsmodels
+  - dask-core
+  - dask-image  
+  - zarr
+  - numcodecs
+  - jupyterlab
+  - dask-labextension
+  - matplotlib-scalebar
+  - openpyxl
+  - tqdm
+  - k3d
