@@ -1,0 +1,7 @@
+!*.log
+*.oog
+*.enc
+*.onc
+*T*.csv
+*rectmp.log
+*.info
