@@ -7,9 +7,9 @@ dependencies:
   - pandas
   - matplotlib
   - seaborn
-  - statsmodels
   - dask-core
-  - dask-image  
+  - dask-image
+  - scikit-image
   - zarr
   - numcodecs
   - jupyterlab
@@ -18,3 +18,4 @@ dependencies:
   - openpyxl
   - tqdm
   - k3d
+  - joblib
