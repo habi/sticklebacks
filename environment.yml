@@ -13,6 +13,7 @@ dependencies:
   - zarr
   - numcodecs
   - jupyterlab
+  - ipywidgets
   - dask-labextension
   - matplotlib-scalebar
   - openpyxl
