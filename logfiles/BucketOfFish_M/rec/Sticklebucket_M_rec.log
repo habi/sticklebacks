@@ -120,3 +120,15 @@ HU Calibration=OFF
 BMP LUT=0
 Cone-beam Angle Horiz.(deg)=40.174431
 Cone-beam Angle Vert.(deg)=26.108887
+Sub-Scan 0 ends at slice=1593
+Sub-Scan 1 ends at slice=2776
+Sub-Scan 2 ends at slice=3961
+Sub-Scan 3 ends at slice=5170
+Automatic Matching In Z=50
+Automatic Matching In X/Y=0
+Automatic Matching In Rotation=0.000000
+Automatic Fusion=1
+Automatic Heel Effect Correction=0
+[File name convention]
+Filename Index Length=8
+Filename Prefix=Sticklebucket_M_rec
