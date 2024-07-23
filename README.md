@@ -3,5 +3,5 @@
 Repository of [Jupyter](https://jupyter.org/) notebooks to data-wrangle tomographic scans of [Stickleback](https://en.wikipedia.org/wiki/Stickleback).
 The project is a collaboration with [Ben Sulser](https://www.ee.iee.unibe.ch/about_us/team/persons/dr_sulser_ben/) from the Institute of Ecology and Evolution, Unversity of Bern, Switzerland.
 
-- PreviewScans.ipynb is used to preview the scans and for very simple [QA](https://en.wikipedia.org/wiki/Quality_assurance)
-- BucketSeparator.ipynb is used to separate a batch of fish scanned together, label the fish according to their IDs and prepare the separated datasets for further analysis
+- [PreviewScans.ipynb](https://nbviewer.org/github/habi/sticklebacks/blob/main/PreviewScans.ipynb) is used to preview the scans and for very simple [QA](https://en.wikipedia.org/wiki/Quality_assurance)
+- [BucketSeparator.ipynb](https://nbviewer.org/github/habi/sticklebacks/blob/main/BucketSeparator.ipynb) is used to separate a batch of fish scanned together, label the fish according to their IDs and prepare the separated datasets for further analysis
