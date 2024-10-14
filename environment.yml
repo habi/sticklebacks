@@ -23,4 +23,6 @@ dependencies:
   - pip
   - pip:
     - pynrrd
+    - flake8
+    - pycodestyle_magic
 
