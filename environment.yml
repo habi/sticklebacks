@@ -2,27 +2,23 @@ name: sticklebacks
 channels:
   - conda-forge
 dependencies:
-  - scipy
-  - imageio
+  - python=3.12
   - pandas
+  - dask
+  - dask-image
   - matplotlib
   - seaborn
-  - dask-core
-  - dask-image
   - scikit-image
+  - imageio
   - zarr
-  - numcodecs
   - jupyterlab
   - ipywidgets
   - dask-labextension
   - matplotlib-scalebar
   - openpyxl
   - tqdm
-  - k3d
   - joblib
   - pip
   - pip:
     - pynrrd
-    - flake8
-    - pycodestyle_magic
 
