@@ -58,3 +58,10 @@ Number Of Horizontal Offset Positions=1
 Study Date and Time=07 May 2025  02h:11m:51s
 Estimated Scan duration=9h:4m:39s
 Scan duration=3h:9m:13s
+Maximum vertical TS=0.0
+Maximum horizontal TS=0.0
+TS modified at=May07,10:13:47 ---  3601 of 3601 projections
+TS modified according to=D:\Results\IEE Stickleback\Sticklebucket_07\proj\Sticklebucket_07~02_2DTransform.csv
+TS modified at level=3
+[Reconstruction]
+Pseudo-parallel projection calculated=1
