@@ -14,6 +14,6 @@ rsync $options /media/habi/Fast_SSD/IEE\ Stickleback/ ~/research_storage_ben/mic
 echo "anamyct05 FastSSD (all text files)--> archive"
 rsync $options --include="*.log" --include="*.md" --include="*.txt" --exclude="*" /media/habi/Fast_SSD/IEE\ Stickleback/ ~/research_storage_ben/microCT_Stickleback/
 echo "All log files from research_storage Ben --> archive"
-rsync $options --exclude="*.png" --exclude="*.zarr" ~/research_storage_ben/microCT_Stickleback/ ~/research_storage_uct/Archiv_Tape/IEE\ Stickleback/
+rsync $options --include="*.?og" --include="*.?nc" --include="*.md" --exclude="._*" --exclude="*" ~/research_storage_ben/microCT_Stickleback/ ~/research_storage_uct/Archiv_Tape/IEE\ Stickleback/
 echo "Archive (logfiles) --> repository subfolder"
 rsync $options --include="*.?og" --include="*.?nc" --exclude="*" ~/research_storage_uct/Archiv_Tape/IEE\ Stickleback/ ~/P/Documents/IEE/Sulser\ Sticklebacks/logfiles/
