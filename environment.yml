@@ -15,6 +15,7 @@ dependencies:
   - ipywidgets
   - dask-labextension
   - matplotlib-scalebar
+  - napari
   - k3d
   - openpyxl
   - tqdm
