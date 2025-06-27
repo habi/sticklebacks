@@ -4,3 +4,4 @@ ID = TL.X24.011
 Vial = 5
 Centroid (x,y) in the original stack = 823, 1949
 Bounding box (x1:x2, y1:y2) of this region in the original stack = 450:1311, 1690:2188
+Threshold = 50
