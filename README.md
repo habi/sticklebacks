@@ -1,3 +1,4 @@
+[![DOI](https://zenodo.org/badge/728674347.svg)](https://doi.org/10.5281/zenodo.18257527)
 [![nbviewer](https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.org/github/habi/sticklebacks/tree/main/)
 
 Repository of [Jupyter](https://jupyter.org/) notebooks to data-wrangle tomographic scans of [Stickleback](https://en.wikipedia.org/wiki/Stickleback).
