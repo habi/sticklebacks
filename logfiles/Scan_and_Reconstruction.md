@@ -16,5 +16,9 @@ This means that the separator betwen *2* and *3* is horizontal to the separator 
 This facilitates consistent separation of the scans into different regions with our Jupyter notebook, aiding further processing.
 The bottom of the reconstruction range is set ~200 slices below the 'base plate' with the numbers.
 
-Gray value of the reconstructions is adapted to the histogram, *discarding* the highest values in the *logarithmic* histogram, e.g. putting the upper limit at the end of the curve when looking at a region in the head of the fish.
+The gray value range of the reconstructions is adapted to the histogram.
+For the first batch (`BucketOfFish_*`) we were *discarding* the highest values in the *logarithmic* histogram, e.g. putting the upper limit at the end of the curve when looking at a region in the head of the fish.
+For the second batch (`Sticklebucket_*`) it was harder to find a constistent region in the head of the fish (their otoliths are less pronounced), so we used the standard way of setting the gray values in the histogram, e.g. to 0 and the highest value shown in the histogram at a seemingly dense region, which was often around the first side-fin of the fish.
+
+
 
