@@ -6,3 +6,4 @@ The project is a collaboration with [Ben Sulser](https://www.ee.iee.unibe.ch/abo
 
 - [PreviewScans.ipynb](https://nbviewer.org/github/habi/sticklebacks/blob/main/PreviewScans.ipynb) is used to preview the scans and for very simple [QA](https://en.wikipedia.org/wiki/Quality_assurance)
 - [BucketSeparator.ipynb](https://nbviewer.org/github/habi/sticklebacks/blob/main/BucketSeparator.ipynb) is used to separate a batch of fish scanned together, label the fish according to their IDs and prepare the separated datasets for further analysis
+- [DataWrangling.ipynb](https://nbviewer.org/github/habi/sticklebacks/blob/main/DataWrangling.ipynb) is used to pull numbers out of all log files for [the manuscript on the study](https://habi.github.io/sticklebacks-manuscript/).
