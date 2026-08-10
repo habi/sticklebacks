@@ -9,8 +9,8 @@ echo "2214 --> research storage Ben"
 rsync $options ~/2214/IEE\ Stickleback/ ~/research_storage_ben/microCT_Stickleback/
 echo "2214 (everything but projections) -> anamyct05 FastSSD"
 rsync $options --exclude="*.?if" ~/2214/IEE\ Stickleback/ /media/habi/Fast_SSD/IEE\ Stickleback/
-echo "anamyct05 FastSSD (all PNGs and .logs we made) --> research storage Ben"
-rsync $options /media/habi/Fast_SSD/IEE\ Stickleback/ ~/research_storage_ben/microCT_Stickleback/
+echo "anamyct05 FastSSD (all PNGs and .logs we made, but no .zarr folders) --> research storage Ben"
+rsync $options --exclude="*.zarr/*" /media/habi/Fast_SSD/IEE\ Stickleback/ ~/research_storage_ben/microCT_Stickleback/
 # echo "research_storage Ben --> anamyct05 FastSSD (all PNGs and things Ben and Sheila)"
 # rsync $options --exclude="*.?if" --exclude="*.nrrd" --exclude="*.ply" --exclude="*.ckpt" --exclude="*.mrml" --exclude="*.json" --exclude="*.vp" --exclude="*.tar" --exclude="*.h5" --exclude="*.ctbl" ~/research_storage_ben/microCT_Stickleback/ /media/habi/Fast_SSD/IEE\ Stickleback/ 
 echo "All log, text and label-checking files from research_storage Ben --> archive"
