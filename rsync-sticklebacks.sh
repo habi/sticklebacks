@@ -2,7 +2,22 @@
 echo -en "\033]0;Stickleback synchronization\a"
 
 # Set options
-options="--verbose --archive --update --omit-dir-times --prune-empty-dirs --exclude="*SubScan?/*" --exclude="*_rectmp.log" --exclude="Thumbs.db" --include="*/""
+options=(
+    --archive
+    --update
+    --whole-file            # Bypasses CPU delta calculations; streams files directly (ideal for fast SSDs/LAN)
+    --inplace               # Writes directly to target files without creating temporary split files first
+    --omit-dir-times
+    --prune-empty-dirs
+    --no-owner              # Avoids chown overhead over network/external mounts
+    --no-group              # Avoids chgrp overhead over network/external mounts
+    --info=progress2        # Replaces line-by-line --verbose with a single updating progress line
+    --exclude='*SubScan?/*'
+    --exclude='*_rectmp.log'
+    --exclude='Thumbs.db'
+    --include='*/'
+)
+
 # Sync stuff
 echo "2214 --> archive"
 rsync "${options[@]}" --exclude="*.png" ~/2214/IEE\ Stickleback/ ~/research_storage_uct/Archiv_Tape/IEE\ Stickleback/
