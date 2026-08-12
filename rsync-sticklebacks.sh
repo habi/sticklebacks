@@ -14,6 +14,7 @@ options=(
     --info=progress2        # Replaces line-by-line --verbose with a single updating progress line
     --exclude='*SubScan?/*'
     --exclude='*_rectmp.log'
+    --exclude='*.zip'
     --exclude='*.tmp'
     --exclude='Thumbs.db'
     --exclude='*DS_Store'
