@@ -11,7 +11,8 @@ options=(
     --prune-empty-dirs
     --no-owner              # Avoids chown overhead over network/external mounts
     --no-group              # Avoids chgrp overhead over network/external mounts
-    --info=progress2        # Replaces line-by-line --verbose with a single updating progress line
+    --verbose
+#    --info=progress2        # Replaces line-by-line --verbose with a single updating progress line
     --exclude='*SubScan?/*'
     --exclude='*_rectmp.log'
     --exclude='*.zip'
@@ -38,7 +39,7 @@ echo "anamyct05 FastSSD (all PNGs and .logs we made, but no .zarr folders) --> r
 rsync "${options[@]}" --exclude="*.zarr/***" /media/habi/Fast_SSD/IEE\ Stickleback/ ~/research_storage_ben/microCT_Stickleback/
 
 echo "All log, text and label-checking files from research_storage Ben --> archive"
-rsync "${options[@]}" --include="*.?og" --include="*.?nc" --include="*.md" --include="*.txt" --include="*.Labels.Check.png" --exclude="._*" --exclude="*" ~/research_storage_ben/microCT_Stickleback/ ~/research_storage_uct/Archiv_Tape/IEE\ Stickleback/
+rsync "${options[@]}" --include="*.?og" --include="*.?nc" --include="*.md" --include="*.txt" --include="*.Labels.Check.png" --include="2024_Fish_Data_Lynn.csv" --exclude="._*" --exclude="*" ~/research_storage_ben/microCT_Stickleback/ ~/research_storage_uct/Archiv_Tape/IEE\ Stickleback/
 
 echo "Archive (logfiles, photos, markdown and label-checking files) --> repository subfolder"
 rsync "${options[@]}" --include="*.?og" --include="*.?nc" --include="*.jpg" --include="*.md" --include="*.Labels.Check.png" --exclude="*" ~/research_storage_uct/Archiv_Tape/IEE\ Stickleback/ ~/P/Documents/IEE/Sulser\ Sticklebacks/logfiles/
