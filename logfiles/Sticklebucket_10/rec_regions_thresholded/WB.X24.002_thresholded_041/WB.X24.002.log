@@ -1,0 +1,7 @@
+Scan = Sticklebucket_10/rec
+Voxel size = 15.999933 um
+ID = WB.X24.002
+Vial = 6
+Centroid (x,y) in the original stack = 1550, 2372
+Bounding box (x1:x2, y1:y2) of this region in the original stack = 1353:1737, 2060:2726
+Threshold = 41

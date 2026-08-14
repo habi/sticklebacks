@@ -1,0 +1,7 @@
+Scan = Sticklebucket/19um_rec
+Voxel size = 19.00072 um
+ID = FG.X23.002
+Vial = 2
+Centroid (x,y) in the original stack = 2125, 918
+Bounding box (x1:x2, y1:y2) of this region in the original stack = 1749:2449, 694:1158
+Threshold = 50
