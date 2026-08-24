@@ -10,9 +10,9 @@ options=(
     --prune-empty-dirs
     --exclude='*SubScan?/*'
     --exclude='*_rectmp.log'
-    --exclude='*.zip'    
+    --exclude='*.zip'
     --exclude='*.tmp'
-    --exclude='Thumbs.db'
+i    --exclude='Thumbs.db'
     --exclude='*DS_Store'
 )
 
