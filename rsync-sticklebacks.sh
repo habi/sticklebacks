@@ -1,10 +1,11 @@
+#!/usr/bin/env bash
+
 # Change terminal title
 echo -en "\033]0;Stickleback synchronization\a"
 
 # Set options
 options=(
-#    --info=progress2        # Replaces line-by-line --verbose with a single updating progress line
-    --verbose
+    --info=progress2        # Replaces line-by-line --verbose with a single updating progress line
     --archive
     --update
     --prune-empty-dirs
@@ -12,7 +13,7 @@ options=(
     --exclude='*_rectmp.log'
     --exclude='*.zip'
     --exclude='*.tmp'
-i    --exclude='Thumbs.db'
+    --exclude='Thumbs.db'
     --exclude='*DS_Store'
 )
 
