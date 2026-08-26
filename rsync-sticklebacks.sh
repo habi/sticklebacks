@@ -34,7 +34,7 @@ echo "anamyct05 FastSSD (all PNGs and .logs we made, but no .zarr folders) --> r
 rsync "${options[@]}" --exclude="*.zarr" /media/habi/Fast_SSD/IEE\ Stickleback/ ~/research_storage_ben/microCT_Stickleback/
 
 echo "All log, text and label-checking files from research_storage Ben --> archive"
-rsync "${options[@]}" --include="*.?og" --include="*.?nc" --include="*.md" --include="*.txt" --include="*.Labels.Check.png" --include="2024_Fish_Data_Lynn.csv" --include="*/" --exclude="._*" --exclude="*" ~/research_storage_ben/microCT_Stickleback/ ~/research_storage_uct/Archiv_Tape/IEE\ Stickleback/
+rsync "${options[@]}" --include="*.md" --include="*.Labels.Check.png" --include="2024_Fish_Data_Lynn.csv" --include="*/" --exclude="._*" --exclude="*" ~/research_storage_ben/microCT_Stickleback/ ~/research_storage_uct/Archiv_Tape/IEE\ Stickleback/
 
 echo "Archive (logfiles, photos, markdown and label-checking files) --> repository subfolder"
 rsync "${options[@]}" --include="*.?og" --include="*.?nc" --include="*.jpg" --include="*.md" --include="*.Labels.Check.png" --include="*/" --exclude="*" ~/research_storage_uct/Archiv_Tape/IEE\ Stickleback/ ~/P/Documents/IEE/Sulser\ Sticklebacks/logfiles/
