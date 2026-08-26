@@ -37,4 +37,4 @@ echo "All log, text and label-checking files from research_storage Ben --> archi
 rsync "${options[@]}" --include="*.md" --include="*.Labels.Check.png" --include="2024_Fish_Data_Lynn.csv" --include="*/" --exclude="._*" --exclude="*" ~/research_storage_ben/microCT_Stickleback/ ~/research_storage_uct/Archiv_Tape/IEE\ Stickleback/
 
 echo "Archive (logfiles, photos, markdown and label-checking files) --> repository subfolder"
-rsync "${options[@]}" --include="*.?og" --include="*.?nc" --include="*.jpg" --include="*.md" --include="*.Labels.Check.png" --include="*/" --exclude="*" ~/research_storage_uct/Archiv_Tape/IEE\ Stickleback/ ~/P/Documents/IEE/Sulser\ Sticklebacks/logfiles/
+rsync "${options[@]}" --include="*.?og" --include="*.?nc" --include="*.jpg" --include="*.md" --include="*.csv" --include="*.Labels.Check.png" --include="*/" --exclude="*" ~/research_storage_uct/Archiv_Tape/IEE\ Stickleback/ ~/P/Documents/IEE/Sulser\ Sticklebacks/logfiles/
